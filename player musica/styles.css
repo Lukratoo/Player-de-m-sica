@@ -1,0 +1,65 @@
+.container {
+    background-color:darkseagreen;
+    height: 500px;
+    width : 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    background-image: url("container fundo.jpg");
+    border-radius : 10px;
+}
+
+.player {
+    background-color:black;
+    height: 90%;
+    width: 50%;
+    display: flex;
+    background-image: url("disco.jpg");
+    border-radius : 10px;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.playlist{
+    background-color:blueviolet;
+    height:90%;
+    width:50%;
+    display: flex;
+    background-image: url("disco 2.jpg");
+    border-radius : 10px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh ;
+    background-image: url("fundo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+
+}
+
+.vinil {
+    background-color:rgb(36, 20, 53);
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.capa {
+    background-color:rgb(128, 96, 192);
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    
+
+}   
